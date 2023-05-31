@@ -1,0 +1,127 @@
+@charset "UTF-8";
+/* reset */
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+
+body {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+  background-color:#f5f5f5;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.header{
+	background-color:white;
+}
+
+.header p{
+	color:brown;
+	text-align: center;
+}
+
+.upper{
+    display: flex;
+    justify-content: space-between;
+	height: 8vh;
+	padding: 0 10%;
+}
+
+.upper .logo{
+	font-size:1.3rem;
+	width: 27vw;
+	line-height:8vh;
+	border-left:#ee7800 solid 2px;
+	border-right:#ee7800 solid 2px;
+}
+
+.head1{
+	line-height:8vh;
+}
+
+.head1 a{
+	color:brown;
+}
+
+.head1 ul{
+    display: flex;
+}
+
+.head1 li{
+    list-style: none;
+	width:90px;
+	text-align:center;
+	color:brown;
+}
+
+.li1{
+	border-left:#ee7800 solid 2px;
+	border-right:#ee7800 solid 2px;
+}
+
+.li2{
+	border-right:#ee7800 solid 2px;
+}
+
+.lower{
+	display:flex;
+	width:100%;
+	height:10vh;
+	background-color: #ee7800;
+	font-size: 1.5rem;
+	padding: 0% 10%;
+}
+
+.lower1{
+	width:34vw;
+	line-height:10vh;
+	font-size:1.8rem;
+	border-left: 2px solid white;
+	text-align: center;
+}
+
+.lower a{
+	color:white;
+	text-align: center;
+}
+
+.lower2{
+	width:33vw;
+	line-height:10vh;
+	text-align: center;
+	font-weight:bold;
+	border-left: 2px solid white;
+	border-right: 2px solid white;
+}
+
+.lower3{
+	width:33vw;
+	line-height:10vh;
+	text-align: center;
+	font-weight:bold;
+	border-right: 2px solid white;
+}
